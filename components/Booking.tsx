@@ -95,7 +95,7 @@ export default function Booking() {
               WhatsApp
             </a>
             <a
-              href="https://m.me/dripperfect"
+              href="https://www.messenger.com/t/107481293927601"
               target="_blank"
               rel="noopener noreferrer"
               className="flex h-11 items-center gap-2 rounded-full bg-white px-6 text-sm font-semibold text-plum shadow-sm transition-colors hover:bg-[#F9EDF3]"

@@ -13,7 +13,7 @@ export default function FloatingChat() {
         <WhatsApp className="h-6 w-6" />
       </a>
       <a
-        href="https://m.me/dripperfect"
+        href="https://www.messenger.com/t/107481293927601"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Chat on Messenger"
