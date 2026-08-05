@@ -48,7 +48,7 @@ export default function About() {
             <span className="italic text-rose-deep">Glowing Skin</span> Outside
           </h2>
           <p className="mt-4 text-[15px] leading-[1.6] text-muted">
-            Welcome to Drip Perfect, an aesthetic and wellness clinic where we
+            Welcome to Drip Perfect Pasig, an aesthetic and wellness clinic where we
             specialize in enhancing your beauty and promoting wellness with
             personalized care. From rejuvenating treatments to holistic
             therapies, our dedicated team is here to support your journey to a

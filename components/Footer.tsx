@@ -24,7 +24,7 @@ export default function Footer() {
               className="h-10 w-auto"
             />
             <span className="font-serif text-2xl font-bold text-plum">
-              Drip Perfect
+              Drip Perfect Pasig
             </span>
           </a>
           <p className="mt-4 text-[13px] leading-relaxed">
