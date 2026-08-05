@@ -17,10 +17,11 @@ export default function Footer() {
         <div className="max-w-[280px]">
           <a href="#" aria-label="Drip Perfect Pasig home" className="flex items-center gap-2">
             <Image
-              src="/images/Logo/drip-perfect.png"
+              src="/images/Logo/drip-perfect.webp"
               alt=""
               width={40}
               height={40}
+              priority
               className="h-10 w-auto"
             />
             <span className="font-serif text-2xl font-bold text-plum">

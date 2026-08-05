@@ -63,10 +63,11 @@ export default function Header() {
       >
         <a href="#" className="flex items-center gap-2" aria-label="Drip Perfect Pasig home">
           <Image
-            src="/images/Logo/drip-perfect.png"
+            src="/images/Logo/drip-perfect.webp"
             alt=""
             width={40}
             height={40}
+            priority
             className="h-10 w-auto"
           />
           <span className="font-serif text-2xl font-bold text-plum">
@@ -143,10 +144,11 @@ export default function Header() {
             onClick={() => setOpen(false)}
           >
             <Image
-              src="/images/Logo/drip-perfect.png"
+              src="/images/Logo/drip-perfect.webp"
               alt=""
               width={40}
               height={40}
+              priority
               className="h-10 w-auto"
             />
             <span className="font-serif text-2xl font-bold text-plum">

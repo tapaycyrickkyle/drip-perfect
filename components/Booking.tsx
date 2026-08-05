@@ -7,7 +7,7 @@ import { Mail, MapPin, Messenger, Phone, WhatsApp } from "./icons";
 const FORMSPREE_ENDPOINT = "https://formspree.io/f/YOUR_FORM_ID";
 
 const gcashQrExists = fs.existsSync(
-  path.join(process.cwd(), "public", "images", "gcash-qr.jpg")
+  path.join(process.cwd(), "public", "images", "gcash-qr.png")
 );
 
 const services = [
@@ -239,7 +239,7 @@ export default function Booking() {
             <div className="flex items-start gap-4">
               {gcashQrExists ? (
                 <GcashQrModal
-                  src="/images/gcash-qr.jpg"
+                  src="/images/gcash-qr.png"
                   alt="GCash QR code for Drip Perfect Pasig"
                 />
               ) : (

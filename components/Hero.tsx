@@ -28,7 +28,7 @@ export default function Hero() {
             Aesthetic &amp; Wellness
           </p>
 
-          <h1 className="mb-5 font-serif text-[46px] leading-[1.12] font-semibold text-plum md:text-6xl lg:text-[48px] lg:whitespace-nowrap xl:text-[64px] 2xl:text-[72px]">
+          <h1 className="mb-5 font-serif text-[44px] leading-[1.12] font-semibold text-plum md:text-[54px] lg:text-[46px] lg:whitespace-nowrap xl:text-[60px] 2xl:text-[68px]">
             Unlock Your Inner{" "}
             <span className="italic text-rose-deep">Radiance</span>
           </h1>
@@ -70,10 +70,11 @@ export default function Hero() {
           <div className="absolute top-[18%] left-1/2 h-[min(86vw,300px)] w-[min(86vw,300px)] -translate-x-1/2 rounded-full border border-rose-deep/25 lg:top-[16%] lg:h-[430px] lg:w-[430px]" />
 
           <Image
-            src="/images/hero-image/woman-transparentbg-2x.png"
+            src="/images/hero-image/woman-transparentbg-2x.webp"
             alt="Woman enjoying a glow treatment at Drip Perfect Pasig"
             fill
             sizes="100vw lg:50vw"
+            quality={85}
             priority
             className="scale-[0.88] object-center object-contain lg:origin-bottom-right lg:object-right-bottom"
           />
