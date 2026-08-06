@@ -33,6 +33,10 @@ export default function GcashQrModal({ src, alt }: GcashQrModalProps) {
             <Search className="h-4 w-4" />
           </span>
         </span>
+        <span className="absolute inset-x-0 bottom-0 flex items-center justify-center gap-1 rounded-b-xl bg-plum/60 py-1 text-[10px] font-semibold text-white backdrop-blur-sm">
+          <Search className="h-3 w-3" />
+          Tap to enlarge
+        </span>
       </button>
 
       <dialog

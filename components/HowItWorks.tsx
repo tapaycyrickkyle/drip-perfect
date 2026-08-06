@@ -6,7 +6,7 @@ const steps = [
     step: "01",
     title: "Book a Session",
     description:
-      "Reserve your slot via call, Messenger, or WhatsApp — walk-ins welcome when slots allow.",
+      "Book your way — via the form on this page, call, Messenger, or WhatsApp. A ₱500 reservation fee via GCash secures your slot; walk-ins welcome when slots allow.",
   },
   {
     icon: Chat,
