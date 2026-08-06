@@ -236,6 +236,12 @@ export default function Booking() {
             <p className="mb-3 text-[11px] font-semibold tracking-wide text-plum uppercase">
               GCash Payment
             </p>
+            <div className="mb-3 rounded-lg bg-blush/70 px-3 py-2 text-[11px] leading-relaxed text-plum">
+              A <span className="font-semibold">₱500 reservation fee</span> is
+              required to confirm your slot — it will be deducted from your
+              total on the day of your visit. Scan the QR below to pay via
+              GCash, then enter your reference number.
+            </div>
             <div className="flex items-start gap-4">
               {gcashQrExists ? (
                 <GcashQrModal
@@ -254,8 +260,7 @@ export default function Booking() {
               )}
               <div className="flex-1">
                 <p className="text-[12px] leading-[1.7] text-muted">
-                  Scan the QR and pay via GCash, then enter the reference
-                  number from your receipt.
+                  Enter the reference number from your GCash receipt.
                 </p>
                 <div className="mt-3">
                   <label
