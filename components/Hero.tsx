@@ -76,7 +76,7 @@ export default function Hero() {
             sizes="100vw lg:50vw"
             quality={85}
             priority
-            className="scale-[0.88] object-center object-contain lg:origin-bottom-right lg:object-right-bottom"
+            className="lg:scale-[0.88] object-contain object-bottom lg:origin-bottom-right lg:object-right-bottom"
           />
 
           <div className="absolute right-4 bottom-32 animate-[float_8s_ease-in-out_infinite_1.6s] flex items-center gap-2 rounded-full bg-white/80 py-1.5 pr-4 pl-1.5 shadow-[0_10px_30px_rgba(74,36,56,0.08)] backdrop-blur-md lg:right-24 lg:bottom-10 lg:py-2 lg:pr-5 lg:pl-2">
