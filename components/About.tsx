@@ -11,7 +11,6 @@ const points = [
 const stats = [
   { value: "30–60 min", label: "Per Session" },
   { value: "100%", label: "Doctor-Supervised" },
-  { value: "Sterile", label: "Medical-Grade Clinic" },
 ];
 
 export default function About() {
@@ -67,7 +66,7 @@ export default function About() {
             ))}
           </ul>
 
-          <div className="mt-8 grid grid-cols-3 divide-x divide-border-tint border-t border-border-tint pt-6">
+          <div className="mt-8 grid grid-cols-2 divide-x divide-border-tint border-t border-border-tint pt-6">
             {stats.map(({ value, label }) => (
               <div key={label} className="px-4 first:pl-0 last:pr-0">
                 <p className="font-serif text-2xl font-bold text-plum">
